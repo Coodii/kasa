@@ -7,11 +7,13 @@ export class CardList extends Component {
   render() {
     return (
       <div className='cardList'>
-        {accomodations.map(({id, title}) =>
+        {accomodations.map(({id, title, cover}) =>
         (
             <Card 
             key={id}
             title={title}
+            id={id}
+            cover={cover}
             ></Card>
         ))}
       </div>
