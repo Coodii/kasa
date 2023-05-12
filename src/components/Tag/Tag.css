@@ -9,6 +9,8 @@
 
 .tag_content{
     margin: 0;
-    padding: 0;
+    padding-top: 3px;
     font-size: 20px;
+    font-size: 14px;
+    font-weight: 500;
 }

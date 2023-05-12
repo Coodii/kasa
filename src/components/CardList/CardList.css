@@ -1,7 +1,15 @@
 .cardList{
+    background-color: #F6F6F6;
+    border-radius: 20px;
     padding-top: 50px;
+    padding-bottom: 50px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 50px;
+}
+
+.home_cardList{
+    padding-top: 50px;
 }

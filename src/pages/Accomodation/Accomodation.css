@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 30px 0;
 }
 
 
@@ -13,6 +13,8 @@
 
 .accomodation_title{
     color: #FF6060;
+    font-size: 36px;
+    font-weight: 500;
     margin: 0;
 }
 
@@ -42,15 +44,17 @@
 
 .accomodation_hostname1, .accomodation_hostname2 {
     margin: 0;
+    padding-top: 7px;
     text-align: right;
     color: #FF6060;
-    font-size: 25px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .accomodation_hostpicture{
     padding-left: 10px;
     border-radius: 50%;
-    height: 70px;
+    height: 64px;
 }
 
 .accomodation_rating {
@@ -60,7 +64,7 @@
 }
 
 .accomodation_star{
-    height: 30px;
+    height: 24px;
     padding-left: 20px;
 }
 
@@ -68,11 +72,10 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 0;
-    justify-content: space-around;
+    justify-content: space-between;
     height: auto;
 }
 
 .collapse_item{
-    width: 49%;
+    width: 48%;
 }
