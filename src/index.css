@@ -5,8 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-left: 100px;
-  padding-right: 100px;
+  overflow-y: scroll;
+}
+
+main{
+  padding: 0px 100px 100px 100px;
 }
 
 code {
