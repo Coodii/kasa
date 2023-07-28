@@ -6,7 +6,7 @@ export class Header extends Component {
   render() {
     return (
       <header className='header'>
-        <img alt='logo' src={logo}/>
+        <img className='header_Logo' alt='logo' src={logo}/>
         <Navbar/>
       </header>
     )

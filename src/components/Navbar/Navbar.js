@@ -6,8 +6,10 @@ export class Navbar extends Component {
   render() {
     return (
       <div className ='navbar'>
-        <NavLink to='/' className ='navbarLink' >Accueil</NavLink>
-        <NavLink to='/about' className ='navbarLink'>A propos</NavLink>
+        <ul className='navbar_ul'>
+          <li className='navbar_li' ><NavLink to='/' className ='navbarLink' >Accueil</NavLink></li>
+          <li className='navbar_li' ><NavLink to='/about' className ='navbarLink'>A propos</NavLink></li>
+        </ul>
       </div>
     )
   }

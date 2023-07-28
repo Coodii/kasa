@@ -19,3 +19,16 @@
     font-size: 48px;
     font-weight: 500;
 }
+
+@media screen and (max-width:900px) {
+    .gallery{
+        height: 110px;
+    }
+
+    .gallery_textContent{
+        right: 30%;
+        top: 10%;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}

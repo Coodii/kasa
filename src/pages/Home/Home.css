@@ -1,3 +1,8 @@
 .home_gallery{
     padding-top: 40px;
+    width: 100%;
+}
+
+.home_cardList{
+    padding-top: 50px;
 }

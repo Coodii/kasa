@@ -79,3 +79,52 @@
 .collapse_item{
     width: 48%;
 }
+
+
+@media screen and (max-width:900px) {
+    .accomodation_content{
+        flex-direction: column;
+        padding: 30px 0 0px 0;
+    }
+
+    .accomodation_informations{
+        width: 100%;
+    }
+
+    .accomodation_tags{
+        width: 100%;
+    }
+
+    .accomodation_hostinformations{
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+
+    .accomodation_hostname1, .accomodation_hostname2 {
+        color: #FF6060;
+        font-size: 12px;
+    }
+
+    .accomodation_hostpicture{
+        padding-top: 10px;
+        height: 32px;
+    }
+
+    .accomodation_rating {
+        padding-top: 20px;
+    }
+    
+    .accomodation_star{
+        height: 13px;
+        padding-left: 5px;
+    }
+
+    .collapse_list{
+        flex-direction: column;
+    }
+
+    .collapse_item{
+        width: 100%;
+        padding-top: 20px;
+    }
+}

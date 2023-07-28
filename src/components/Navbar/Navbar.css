@@ -1,8 +1,14 @@
 .navbar{
+    padding-right: 100px;
+}
+
+.navbar_ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    width: 200px;
+    width: 100%;
 }
 
 .navbarLink{
@@ -23,4 +29,16 @@
     left:0;
     bottom: -10px;
 }
+
+@media screen and (max-width:900px) {
+
+    .navbar{
+        padding-right: 50px;
+    }
+    
+
+    .navbarLink{
+        font-size: 12px;
+    }
+} 
 

@@ -1,15 +1,24 @@
 .cardList{
     background-color: #F6F6F6;
     border-radius: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 100%;
+    padding: 50px 30px 50px 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 50px;
 }
 
-.home_cardList{
-    padding-top: 50px;
-}
+@media screen and (max-width:900px) {
+    .cardList{
+        grid-template-columns: 1fr;
+        padding: 0px 0px 0px 0px;
+        background-color: white;
+        gap: 20px;
+        justify-items: normal;
+    }
+
+    .home_cardList{
+        padding-top: 20px;
+    }
+    
+} 
