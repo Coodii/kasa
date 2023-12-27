@@ -9,21 +9,23 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Slider from '../../components/Slider/Slider';
 import Tag from '../../components/Tag/Tag';
+import ErrorPage from '../ErrorPage/ErrorPage';
+
 
 
 export default function Accomodation() {
   
   const {id} = useParams();
   const currentAccomodation = accomodations.filter(data => data.id === id)[0];
+  if(currentAccomodation === undefined){
+    return <ErrorPage/>
+  }
   const name = currentAccomodation.host.name.split(' ');
   const rating = new Array(5).fill(undefined);
   const tags = currentAccomodation.tags;
   const accomodationsPictures = currentAccomodation.pictures;
-
-  
   
   return (
-    
     <div className='accomodation'>
       <Header/>
       <main>

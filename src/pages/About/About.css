@@ -1,10 +1,22 @@
 
 .about_gallery{
     padding-top: 40px;
+    height: 220px;
 }
 
 .about_collapse{
     padding-top: 40px;
 }
 
-main{padding-bottom: 50px;}
+
+@media screen and (max-width:900px) {
+    .about_gallery{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about_collapse{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+}

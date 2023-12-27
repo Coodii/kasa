@@ -12,8 +12,8 @@ header{
 @media screen and (max-width:900px) {
 
     .header_Logo{
-        width: 20%;
-        height: 50px;
+        width: 40%;
+        height: auto;
         padding-left: 20px;
     }
 } 

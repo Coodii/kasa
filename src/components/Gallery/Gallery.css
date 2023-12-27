@@ -1,7 +1,7 @@
 .gallery{
     position: relative;
     width: 100%;
-    height: 220px;
+    height: 100%;
 }
 
 .gallery_image{
@@ -21,9 +21,6 @@
 }
 
 @media screen and (max-width:900px) {
-    .gallery{
-        height: 110px;
-    }
 
     .gallery_textContent{
         right: 30%;

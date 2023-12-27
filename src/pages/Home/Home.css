@@ -1,8 +1,20 @@
 .home_gallery{
     padding-top: 40px;
+    height: 220px;
     width: 100%;
 }
 
 .home_cardList{
     padding-top: 50px;
 }
+
+@media only screen and (max-width: 900px) {
+    .home_gallery{
+        height: 120px;
+    }
+
+    .home_cardList{
+        padding-top: 20px;
+    }
+}
+

@@ -1,7 +1,8 @@
 import React from 'react';
 import './Gallery.css';
+import PropTypes from 'prop-types'
 
-export default function Gallery({picture,content}) {
+function Gallery({picture,content}) {
   return (
     <div className='gallery'>
         <img className='gallery_image' src={picture} alt='galleryImage'/>
@@ -9,3 +10,10 @@ export default function Gallery({picture,content}) {
     </div>
   )
 }
+
+Gallery.propTypes = {
+  picture: PropTypes.node,
+  content: PropTypes.string
+}
+
+export default Gallery

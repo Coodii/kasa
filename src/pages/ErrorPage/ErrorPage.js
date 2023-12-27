@@ -1,12 +1,16 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+import './ErrorPage.css'
 
 function ErrorPage() {
   return (
     <div>
         <Header/>
-        <p>404</p>
-        <p>Oups! La page que vous demandez n'existe pas</p>
+        <h1 className='error_status'>404</h1>
+        <p className='error_message'>Oups! La page que vous demandez n'existe pas</p>
+        <a className='error_link' href='/'>Retourner sur la page d’accueil</a>
+        <Footer/>
     </div>
   )
 }

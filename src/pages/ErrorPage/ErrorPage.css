@@ -1,0 +1,39 @@
+.error_status, .error_message, .error_link {
+    text-align: center;
+    color: #FF6060;
+}
+
+
+.error_status{
+    font-size: 288px;
+    font-weight:700;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.error_message{
+    font-size: 40px;
+    margin-bottom: 150px;
+}
+
+.error_link{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 900px) {
+    .error_status{
+        font-size: 120px;
+        margin-bottom: 10px;
+    }
+
+    .error_message{
+        font-size: 28px;
+    }
+
+    .error_link{
+        font-size: 15px;
+    }
+}

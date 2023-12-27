@@ -1,10 +1,12 @@
 import { React, useState }from 'react'
 import downArrow from '../../assets/downArrow.png'
 import upArrow from '../../assets/upArrow.png'
-import './Collapse.css';
+import './Collapse.css'
+import PropTypes from 'prop-types'
+
 
 function Collapse({title, content}) {
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(true)
   return (
     <div className= 'collapse' onClick={()=> setIsOpen(!isOpen)}>
         <h3 className='collapse_title'>{title}
@@ -22,6 +24,14 @@ function Collapse({title, content}) {
         </div>
     </div>
   )
+}
+
+Collapse.propTypes = {
+    title: PropTypes.string,
+    content: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.array
+      ]),
 }
 
 export default Collapse
