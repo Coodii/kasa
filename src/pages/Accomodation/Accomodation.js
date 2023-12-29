@@ -52,7 +52,7 @@ export default function Accomodation() {
             </div>
             <div className='accomodation_rating'>
                   {rating.map((i, index) => {
-                    const ratingStar = index + 1;
+                    let ratingStar = index + 1;
                     return (
                       <img className='accomodation_star' key={index} src={ratingStar <= currentAccomodation.rating ? star : emptyStar} alt= {'rating' +index}/>
                     )

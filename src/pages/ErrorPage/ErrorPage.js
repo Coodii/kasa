@@ -7,9 +7,11 @@ function ErrorPage() {
   return (
     <div>
         <Header/>
-        <h1 className='error_status'>404</h1>
-        <p className='error_message'>Oups! La page que vous demandez n'existe pas</p>
-        <a className='error_link' href='/'>Retourner sur la page d’accueil</a>
+          <main>
+            <h1 className='error_status'>404</h1>
+            <p className='error_message'>Oups! La page que vous demandez n'existe pas</p>
+            <a className='error_link' href='/'>Retourner sur la page d’accueil</a>
+          </main>
         <Footer/>
     </div>
   )
