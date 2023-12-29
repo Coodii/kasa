@@ -23,7 +23,8 @@
 @media screen and (max-width:900px) {
 
     .gallery_textContent{
-        right: 30%;
+        padding-left: 20px;
+        right: 35%;
         top: 10%;
         font-size: 24px;
         font-weight: 500;

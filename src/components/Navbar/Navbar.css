@@ -1,5 +1,6 @@
 .navbar{
     padding-right: 100px;
+    width: 20%;
 }
 
 .navbar_ul{
@@ -17,7 +18,8 @@
     padding: 20px 0px 0px 0px;
     font-size: 24px;
     position: relative;
-    
+
+
 }
 
 .navbarLink.active::after{
@@ -34,11 +36,19 @@
 
     .navbar{
         padding-top: 10px;
+        padding-right: 20px;
+        width: 40%;
     }
     
 
     .navbarLink{
         font-size: 17px;
+        padding-left: 0;
+    }
+
+    .navbar_ul{
+        padding-left: 0;
+        margin: 0;
     }
 } 
 

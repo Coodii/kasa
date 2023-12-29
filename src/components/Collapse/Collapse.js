@@ -6,7 +6,9 @@ import PropTypes from 'prop-types'
 
 
 function Collapse({title, content}) {
-    const [isOpen, setIsOpen] = useState(true)
+    
+const [isOpen, setIsOpen] = useState(true)
+
   return (
     <div className= 'collapse' onClick={()=> setIsOpen(!isOpen)}>
         <h3 className='collapse_title'>{title}
